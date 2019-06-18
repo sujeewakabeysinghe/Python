@@ -1,0 +1,23 @@
+print() - to print strings
+int() - to convert string to integer
+float() - to convert string to float
+str() - to convert integer and float to string if not we cannot print it
+len(variName) - to get size of the string
+input() - to get inputs from keyboard
+type(variName) - to get the type of the variable
+variName[0,-1] - to get string fragment from string
+variName[5] - to get charactor from string
+f'{variName1} is good for {variName2}' - formatted text without concatenate and converting to string
+variName.upper() - method for convert to upper case for string
+variName.title() - to convert first letters to upper in string
+variName.find('charater') - find the index of that character of string if not it passes -1
+variName.find('word') - find the first letter indext of the word
+variName.replace('wordOrCharactor','newWordOrCharactor')
+'wordOrCharactorInStringInVariName' in variName - pass boolean value depending on existing  or not
+print(10/3) - 3.33333
+print(10//3) - 3 [integer value]
+print(10*3) - 30
+print(10**3) - 1000
+round(2.9) - 3, to round numbers
+abs(-25) - 25, to get absolute value
+import math - to get mathematical things, just google python 3 math module

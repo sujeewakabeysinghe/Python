@@ -1,0 +1,11 @@
+secretNumber=9
+guessCount=1
+guessLimit=3
+while guessCount<=guessLimit:
+    guess=int(input('Enter a number : '))
+    guessCount+=1
+    if guess==secretNumber:
+        print('you win!')
+        break
+else:
+    print('you lose!')

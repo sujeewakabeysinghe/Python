@@ -1,0 +1,13 @@
+x=50
+if x==53:
+    print('good')
+else:
+    print('bad')
+
+
+==
+!=
+>
+<
+>=
+<=

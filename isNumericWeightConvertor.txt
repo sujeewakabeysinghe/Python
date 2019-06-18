@@ -1,0 +1,11 @@
+weight = input('Enter your weight : ')
+if weight.isnumeric():
+    unit = input('what is the unit og it ? kg or Lbs ? ')
+    if unit.upper() == 'KG':
+        print('your weight in Lbs is ' + str(int(weight) * 10))
+    elif unit.upper() == 'LBS':
+        print('your weght in Kg is ' + str(int(weight) * .1))
+    else:
+        print('your sign is wrong.')
+else:
+    print('input a number.')

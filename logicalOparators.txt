@@ -1,0 +1,12 @@
+goodIncome=True
+hasCriminalRecord=False
+if goodIncome and not hasCriminalRecord:
+    print('eligible')
+else:
+    print('not eligible')
+
+
+
+and
+or
+not

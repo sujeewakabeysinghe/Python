@@ -1,0 +1,8 @@
+isHot=False
+isCold=False
+if isHot:
+    print('good')
+elif isCold:
+    print('bad')
+else:
+    print('normal')

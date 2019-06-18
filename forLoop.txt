@@ -1,0 +1,10 @@
+for i in range(5,10,2): - 5 to 9 will type with having with gap of 2
+    print(i)
+
+
+
+prices = [20,50,30,10,80]
+total=0
+for price in prices:
+    total+=price
+print(f'Total is ${total}')
